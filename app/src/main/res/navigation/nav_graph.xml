@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/welcomeFragment">
+
+    <fragment
+        android:id="@+id/welcomeFragment"
+        android:name="com.example.aad_team_51_animation_challenge.WelcomeFragment"
+        android:label="fragment_welcome"
+        tools:layout="@layout/fragment_welcome" >
+        <action
+            android:id="@+id/action_welcomeFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.aad_team_51_animation_challenge.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" />
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.example.aad_team_51_animation_challenge.AboutFragment"
+        android:label="fragment_about"
+        tools:layout="@layout/fragment_about" />
+    <fragment
+        android:id="@+id/highScoresFragment"
+        android:name="com.example.aad_team_51_animation_challenge.HighScoresFragment"
+        android:label="fragment_high_scores"
+        tools:layout="@layout/fragment_high_scores" />
+    <fragment
+        android:id="@+id/manageQuestionsFragment"
+        android:name="com.example.aad_team_51_animation_challenge.ManageQuestionsFragment"
+        android:label="fragment_manage_questions"
+        tools:layout="@layout/fragment_manage_questions" />
+    <fragment
+        android:id="@+id/gameFragment"
+        android:name="com.example.aad_team_51_animation_challenge.GameFragment"
+        android:label="fragment_game"
+        tools:layout="@layout/fragment_game" />
+</navigation>
