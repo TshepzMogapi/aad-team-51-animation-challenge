@@ -18,7 +18,20 @@
         android:id="@+id/mainFragment"
         android:name="com.example.aad_team_51_animation_challenge.MainFragment"
         android:label="fragment_main"
-        tools:layout="@layout/fragment_main" />
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_aboutFragment"
+            app:destination="@id/aboutFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_highScoresFragment"
+            app:destination="@id/highScoresFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_manageQuestionsFragment"
+            app:destination="@id/manageQuestionsFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_gameFragment"
+            app:destination="@id/gameFragment" />
+    </fragment>
     <fragment
         android:id="@+id/aboutFragment"
         android:name="com.example.aad_team_51_animation_challenge.AboutFragment"
