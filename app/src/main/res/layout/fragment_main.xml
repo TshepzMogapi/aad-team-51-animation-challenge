@@ -13,33 +13,47 @@
         android:id="@+id/button_game"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="48dp"
         android:text="Game"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="55dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/button_questions"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="51dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginBottom="48dp"
         android:text="Questions"
-        app:layout_constraintTop_toBottomOf="@+id/button_game"
-        tools:layout_editor_absoluteX="165dp" />
+        app:layout_constraintBottom_toTopOf="@+id/button_scores"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_about" />
 
     <Button
         android:id="@+id/button_scores"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:layout_marginBottom="48dp"
         android:text="Scores"
-        app:layout_constraintTop_toBottomOf="@+id/button_questions"
-        tools:layout_editor_absoluteX="72dp" />
+        app:layout_constraintBottom_toTopOf="@+id/button_game"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_questions" />
 
     <Button
         android:id="@+id/button_about"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:layout_marginBottom="48dp"
         android:text="About"
-        app:layout_constraintTop_toBottomOf="@+id/button_scores"
-        tools:layout_editor_absoluteX="179dp" />
+        app:layout_constraintBottom_toTopOf="@+id/button_questions"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
