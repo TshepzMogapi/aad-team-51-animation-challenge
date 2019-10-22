@@ -3,4 +3,9 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="string_continue">Continue</string>
     <string name="string_welcome_fragment">Welcome Fragment</string>
+    <string name="about">About</string>
+    <string name="scores">Scores</string>
+    <string name="questions">Questions</string>
+    <string name="game">Game</string>
+    <string name="game_title">This is Africa - Do you know it?</string>
 </resources>

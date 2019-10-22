@@ -1,6 +1,8 @@
 package com.example.aad_team_51_animation_challenge;
 
 import android.os.Bundle;
+import android.view.Window;
+import android.view.WindowManager;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
