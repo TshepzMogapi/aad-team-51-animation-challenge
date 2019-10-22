@@ -14,14 +14,9 @@ import androidx.navigation.Navigation;
 
 public class MainFragment extends Fragment {
 
-    public MainFragment() {
-        // Required empty public constructor
-    }
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_main, container, false);
     }
 
@@ -35,6 +30,7 @@ public class MainFragment extends Fragment {
                 navController.navigate(R.id.action_mainFragment_to_aboutFragment);
             }
         });
+
         button = view.findViewById(R.id.button_game);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -43,6 +39,7 @@ public class MainFragment extends Fragment {
                 navController.navigate(R.id.action_mainFragment_to_gameFragment);
             }
         });
+
         button = view.findViewById(R.id.button_questions);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -51,6 +48,7 @@ public class MainFragment extends Fragment {
                 navController.navigate(R.id.action_mainFragment_to_manageQuestionsFragment);
             }
         });
+
         button = view.findViewById(R.id.button_scores);
         button.setOnClickListener(new View.OnClickListener() {
             @Override

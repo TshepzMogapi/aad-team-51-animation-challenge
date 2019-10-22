@@ -8,10 +8,6 @@ import androidx.fragment.app.Fragment;
 
 public class GameFragment extends Fragment {
 
-    public GameFragment() {
-        // Required empty public constructor
-    }
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {

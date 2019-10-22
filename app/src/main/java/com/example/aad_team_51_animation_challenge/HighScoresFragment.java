@@ -7,9 +7,6 @@ import android.view.ViewGroup;
 import androidx.fragment.app.Fragment;
 
 public class HighScoresFragment extends Fragment {
-    public HighScoresFragment() {
-        // Required empty public constructor
-    }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
