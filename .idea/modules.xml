@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/aadteam51animationchallenge.iml" filepath="$PROJECT_DIR$/aadteam51animationchallenge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aad-team-51-animation-challenge.iml" filepath="$PROJECT_DIR$/aad-team-51-animation-challenge.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
